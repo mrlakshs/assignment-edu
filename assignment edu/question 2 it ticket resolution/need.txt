@@ -1,0 +1,15 @@
+# Data Manipulation
+pandas>=2.0.0
+
+# Configuration Management
+PyYAML>=6.0
+
+# Computer Vision / OCR
+Pillow>=10.0.0
+pytesseract>=0.3.10
+
+# NLP and Embeddings (Handles all-mpnet-base-v2)
+sentence-transformers>=2.2.2
+
+# Vector Database (Upgraded to handle 768-dimension indices)
+faiss-cpu>=1.7.4

@@ -1,0 +1,51 @@
+﻿ticket_id,raw_text,category,solution
+T001,My screen went black during a presentation,Hardware/Display,Update graphics driver via Safe Mode.
+T002,I forgot my Windows password,Access/Password,Click the reset link on the main portal.
+T003,VPN keeps disconnecting randomly,Network/VPN,Change VPN protocol setting to TCP.
+T004,Outlook is freezing when I hit reply,Software/Email,Clear the Outlook local cache folder.
+T005,cnt log in 2 laptop lost passcode,Access/Password,Click the reset link on the main portal.
+T006,prntr on 4th floor out of ink again!!!,Hardware/Printer,Dispatch Tier 1 to replace cyan/magenta cartridges.
+T007,Need access to the marketing SharePoint drive,Access/Permissions,Route approval request to Marketing Dept Head.
+T008,zoom crashing every 5 mins plzzz help,Software/Communications,Uninstall Zoom and reinstall latest stable build.
+T009,Mouse is completely unresponsive after restart,Hardware/Peripherals,Replace USB mouse from IT inventory room 2B.
+T010,blue screen of death idk what happend,OS/System Crash,Run hardware diagnostic tool and check memory dump.
+T011,Unable to connect to the office Wi-Fi on mobile,Network/WiFi,Forget network and re-authenticate via RADIUS portal.
+T012,excl doc wont open says corrupted,Software/Office365,Use Excel built-in repair tool or restore from OneDrive version history.
+T013,Requesting a temporary admin token to install Docker,Access/AdminRights,Generate 24-hour JIT admin token via CyberArk.
+T014,keyboard spiiillled coffee sticky keys,Hardware/Peripherals,Issue replacement keyboard and flag old unit for e-waste.
+T015,Salesforce integration in Chrome is throwing Error 401,Software/Browser,Clear Chrome cookies and re-authenticate Salesforce plugin.
+T016,monitr flickering rlly bad giving me headache,Hardware/Display,Check HDMI/DP cable seating; replace cable if issue persists.
+T017,New employee onboarding - need laptop provisioned,HR/Onboarding,Apply standard imaging template and assign to user profile.
+T018,cant hear anything on teams calls headset broke,Hardware/Audio,Check Windows default audio device; replace headset if physical damage.
+T019,Adobe Creative Cloud license expired,Software/Licensing,Renew user license allocation in Adobe Admin Console.
+T020,internet SOOOO slow cant work,Network/Bandwidth,Check local node utilization; request user run speed test to verify.
+T021,locked out of my laptop forgot passcode,Access/Password,Click the reset link on the main portal.
+T022,cant login lost my password,Access/Password,Click the reset link on the main portal.
+T023,need to reset my windows passcode asap,Access/Password,Click the reset link on the main portal.
+T024,forgot pin to unlock computer,Access/Password,Click the reset link on the main portal.
+T025,wifi keeps dropping on 3rd floor,Network/WiFi,Switch to the 5GHz network band or reboot local AP.
+T026,no internet connection on docking station,Network/LAN,Check ethernet cable seating on the dock.
+T027,battery draining super fast,Hardware/Battery,Order replacement battery unit from vendor.
+T028,second monitor not turning on,Hardware/Display,Verify power cable and check display settings.
+T029,laptop fan is making a loud buzzing noise,Hardware/Cooling,Dispatch technician to clean fan and reapply thermal paste.
+T030,excel crashing when saving large files,Software/Office365,Disable hardware graphics acceleration in Excel options.
+T031,teams chat is stuck on loading,Software/Communications,Clear Teams cache located in %appdata%\Microsoft\Teams.
+T032,need license for visio,Software/Licensing,Submit software request form to IT procurement.
+T033,paper jam in the breakroom printer again,Hardware/Printer,Clear jam in rear tray and run cleaning cycle.
+T034,printer says offline but its plugged in,Hardware/Printer,Restart print spooler service on local machine.
+T035,need permissions for the HR shared folder,Access/Permissions,Route request to HR Director for approval.
+T036,new guy needs access to github repo,Access/Permissions,Add user to corresponding GitHub team with read access.
+T037,my macbook wont charge anymore,Hardware/Power,Test with a known good USB-C charger and cable.
+T038,iphone not syncing with corporate email,Mobile/Exchange,Remove and re-add the Exchange profile in iOS settings.
+T039,cant open pdf files default app changed,Software/OS,Set Adobe Acrobat as the default app for .pdf extensions.
+T040,screen frozen cant move mouse or ctrl alt del,OS/System Crash,Hold power button for 15s for hard reset.
+T041,vpn is super slow today cant download anything,Network/VPN,Switch to alternate regional VPN gateway.
+T042,microphone not working on zoom calls,Hardware/Audio,Check Windows privacy settings to allow microphone access.
+T043,mailbox is full cant send emails,Software/Email,Archive old emails to local PST or request storage quota increase.
+T044,some keys on my laptop stopped working,Hardware/Peripherals,Dispatch tech for keyboard replacement; issue external keyboard temporarily.
+T045,cant access internal portal says connection not private,Software/Browser,Clear SSL state and update browser certificates.
+T046,not getting the text code for two factor auth,Access/MFA,Reset MFA token and have user re-register device in authenticator app.
+T047,screens flickering when connected to dock,Hardware/Display,Update docking station firmware and re-seat display cables.
+T048,windows update stuck at 99 percent for hours,OS/Updates,Force restart and run Windows Update Troubleshooter.
+T049,company apps missing from my work phone,Mobile/MDM,Re-sync mobile device with Intune Company Portal.
+T050,sap is throwing a runtime error when logging in,Software/ERP,Reinstall SAP GUI client with the latest security patch.

@@ -1,0 +1,17 @@
+paths:
+  knowledge_base: "data/historical_tickets.csv"
+  vector_index: "data/vector_index/ticket_index.faiss"
+  test_image: "data/raw_tickets/error_screenshot.png"
+
+models:
+  
+  embedding_model: "all-mpnet-base-v2" 
+  
+faiss:
+  
+  embedding_dimension: 768  
+  top_k_results: 3
+
+thresholds:
+  
+  confidence_score: 0.80   # Minimum similarity to trigger auto-resolution

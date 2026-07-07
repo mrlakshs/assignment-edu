@@ -1,0 +1,22 @@
+paths:
+  raw_data: "data/server_logs.csv"
+  processed_data: "data/processed/features.csv"
+  model_path: "models/global_lgb_model.txt"
+
+features:
+  numeric:
+    - "memory_usage_1h_avg"
+    - "disk_io_1h_max"
+    - "network_latency_1h_avg"
+  categorical: []
+  derived:
+    - "is_log_missing"  # Flag for the 25% missing logs constraint
+  target: "will_fail_24h"
+
+model_params:
+  objective: "binary"
+  metric: "auc"
+  boosting_type: "gbdt"
+  learning_rate: 0.05
+  num_leaves: 31
+  verbose: -1
